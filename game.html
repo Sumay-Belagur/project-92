@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>math quiz game</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="game.css">
+</head>
+<body>
+    <br>
+    <button type="button" id="back_button" onclick="back();">⬅Back</button>
+    <br>
+    <div>
+        <span id="player1name"></span>
+        <span id="player1score">0</span>
+    </div>
+    <br>
+    <div>
+        <span id="player2name"></span>
+        <span id="player2score">0</span>
+    </div>
+    <center>
+        <h1 id="mathQuizH1">Math quiz game has started</h1>
+
+        <div id="question">Question turn: </div> <span id="Qturn_name"></span>
+        <br>
+		<div id="answer">Answer turn: </div> <span id="Aturn_name"></span>
+        <br>
+        <br>
+        <div id="output" class="col-lg-6"></div>
+        <br>
+        <br>
+        <label class="number_lbl">Number 1</label>
+        <br>
+        <input type="number" class="number_input" id="number1_input">
+        <br>
+        <br>
+        <label class="number_lbl">Number 2</label>
+        <br>
+        <input type="number" class="number_input" id="number2_input">
+        <br>
+        <br>
+        <button type="button" id="send_btn" onclick="send();" onmouseover="border_white();" onmouseout="border_black();">Send</button>
+    </center>
+
+    <script src="game.js"></script>
+</body>
+</html>

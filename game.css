@@ -1,0 +1,49 @@
+body{
+    background-image: url("background2.jpg");
+    background-size: cover;
+}
+#mathQuizH1{
+    font-weight: bolder;
+    color: yellow;
+    padding-right: 100px;
+}
+#player1name, #player2name, #player1score, #player2score{
+    color: tomato;
+    font-size: 20px;
+    padding: 15px;
+    
+}
+#back_button{
+    background-color: teal;
+}
+#question, #answer{
+    color: black;
+    font-size: 25px;
+}
+#output
+{
+background: white;
+border-radius: 10px;
+border-top: 10px solid #01fa60;
+padding: 10px;
+float: none;
+text-align: left;
+}
+.number_lbl{
+    color: black;
+    font-size: large;
+}
+.number_input{
+    width: 400px;
+}
+#send_btn{
+    background-color: blue;
+    width: 200px;
+    border-width: 3px;
+    border-color: black;
+    color: white;
+}
+#check_btn{
+    background-color: lightblue;
+    color: black;
+}
